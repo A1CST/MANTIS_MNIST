@@ -1,0 +1,26 @@
+[17:12:08] ============================================================
+[17:12:08] Evaluating: mnist_v1_conv_evolved_200n_8act.pt
+[17:12:08]   Type: V1/V3-L1 Conv, Neurons: 200
+[17:12:08]   Device: cuda
+[17:12:08] ============================================================
+[17:12:08] Encoding features...
+[17:12:08]   Using pools: ['avg', '2x2', '3x3', '1x4', '4x1', '1x8', '8x1', '2x4', '4x2'] (10800 conv dims)
+[17:12:09]   Using pools: ['avg', '2x2', '3x3', '1x4', '4x1', '1x8', '8x1', '2x4', '4x2'] (10800 conv dims)
+[17:12:10]   Features: 10928 dims [1.8s]
+[17:12:10] Running ridge regression sweep...
+[17:12:12]   Val:  98.51%
+[17:12:12]   Test: 98.33%
+[17:12:12]   Reg:  1e+03
+[17:12:12]   Per-class: 0:99.5% 1:99.2% 2:98.5% 3:98.5% 4:97.3% 5:98.7% 6:97.6% 7:98.2% 8:98.4% 9:97.4%
+[17:12:12] Generating charts...
+[17:12:12]   Saved: 00_summary_dashboard.png
+[17:12:12]   Running t-SNE...
+[17:12:55]   t-SNE done [42.1s]
+[17:12:55]   Saved: 01_tsne.png
+[17:12:55]   Saved: 02_confusion_matrix.png
+[17:12:55]   Saved: 03_per_class_accuracy.png
+[17:12:57]   Saved: 04_neuron_activations.png
+[17:12:57]   Saved: 05_neuron_fisher.png
+[17:12:57]     Fisher — max: 2.28, median: 0.26, min: 0.0008
+[17:12:58]   Saved: 06_reg_sweep.png
+[17:12:58]   Saved: 07_feature_correlation.png
