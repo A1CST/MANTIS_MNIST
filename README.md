@@ -150,6 +150,36 @@ Mantis Vision uses evolutionary optimization to discover effective visual featur
 
 ---
 
+---
+
+## Assets and Visual Results
+
+Below are the primary analysis artifacts generated during evaluation. All images are located in the `assets/` directory.
+
+### Summary Dashboard
+![Summary Dashboard](assets/00_summary_dashboard.png)
+
+### Feature Embedding (t-SNE)
+![t-SNE Feature Embedding](assets/01_tsne.png)
+
+### Confusion Matrix
+![Confusion Matrix](assets/02_confusion_matrix.png)
+
+### Per-Class Accuracy
+![Per-Class Accuracy](assets/03_per_class_accuracy.png)
+
+### Neuron Activations
+![Neuron Activations](assets/04_neuron_activations.png)
+
+### Neuron Discriminative Power (Fisher Score)
+![Neuron Fisher Scores](assets/05_neuron_fisher.png)
+
+### Regularization Sweep
+![Regularization Sweep](assets/06_reg_sweep.png)
+
+### Feature Correlation
+![Feature Correlation](assets/07_feature_correlation.png)
+
 ## Citation
 
 ```bibtex
